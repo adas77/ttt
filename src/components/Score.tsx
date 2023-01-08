@@ -20,7 +20,7 @@ const Score = () => {
         return () => {
 
         }
-    }, [whoNext, winner, all, resetClock, stopClock])
+    }, [whoNext, winner, all])
 
     const clear = () => {
         cmdRestartBoard()
