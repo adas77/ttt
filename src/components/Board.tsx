@@ -11,8 +11,6 @@ const Board = () => {
             <table className="board">
                 <tbody>
                     {rows.map((r) => (
-                        // <tr key={r}>
-                        // <tr key={r}>
                         <tr key={r} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                             {cols.map((c) => {
                                 return (
@@ -30,7 +28,6 @@ const Board = () => {
                     ))}
                 </tbody>
             </table>
-            {/* </div> */}
         </>
 
     )
